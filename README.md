@@ -11,7 +11,7 @@ From the root directory of your plugin run:
 docker run \
        -v $PWD:/usr/src/redmine/plugins/<your_plugin> \
        --rm \
-       <your_plugin>_test \
+       tfischbach/redmine_plugin_test \
        rake db:migrate redmine:plugins:migrate redmine:plugins:test
 ```
 
